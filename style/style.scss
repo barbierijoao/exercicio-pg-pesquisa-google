@@ -95,6 +95,9 @@ ul, a {
                 .icons-right {
                     position: relative;
                     left: -80px;
+
+                    display: flex;
+                    gap: 10px;
                 }
             }
 
@@ -164,6 +167,18 @@ ul, a {
             a span {
                 font-size: 35px;
                 color: white;
+
+                width: 50px;
+                height: 50px;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                &:hover {
+                    background-color: #464749;
+                    border-radius: 100px;
+                }
             }
 
             .perfil {
@@ -345,7 +360,7 @@ ul, a {
                     color: var(--white-gray);
 
                     &:hover {
-                        color: #9aa0a6;
+                        color: #b4b7bb;
                     }
                 }
             }
