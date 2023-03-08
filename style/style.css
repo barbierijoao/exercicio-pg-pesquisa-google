@@ -154,8 +154,9 @@ ul, a {
   background-color: #00897b;
   border-radius: 100px;
 }
-.container header .icons .perfil a {
+.container header .icons .perfil h1 {
   font-size: 25px;
+  font-weight: 200;
   color: white;
 }
 .container .content {
